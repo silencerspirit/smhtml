@@ -1,0 +1,205 @@
+@font-face {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype");
+}
+
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: #666;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+  color: #666;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.75;
+  font-family: "roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  max-width: 1200px;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  margin: 0 auto;
+}
+
+.wrapper p {
+  width: 74.5%;
+}
+
+.wrapper2 {
+  max-width: 1200px;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  margin: 0 auto;
+}
+
+.wrapper3 {
+  max-width: 1200px;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  margin: 0 auto;
+}
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+
+/* Medium Devices, Desktops */
+
+/* Small Devices, Tablets */
+
+/* Extra Small Devices, Phones */
+
+/* Custom, iPhone Retina */
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+  }
+
+  .wrapper2 {
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+  }
+
+  .wrapper3 {
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  /**/
+}
+
+@media screen and (max-width: 992px) {
+  .wrapper {
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+  }
+
+  .wrapper2 {
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+  }
+
+  .wrapper3 {
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  /**/
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+  }
+
+  .wrapper2 {
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+  }
+
+  .wrapper3 {
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /**/
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+  }
+
+  .wrapper2 {
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+  }
+
+  .wrapper3 {
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /**/
+}
+
+@media screen and (max-width: 320px) {
+  .wrapper {
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+  }
+
+  .wrapper2 {
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+  }
+
+  .wrapper3 {
+    padding-left: 0.25%;
+    padding-right: 0.25%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  /**/
+}
